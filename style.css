@@ -94,8 +94,7 @@
     text-decoration: line-through;
     color: #888;
   }
-  
-  /* New price on a separate line */
+
   .new-price {
     color: #000;
     font-size: 18px;
@@ -122,8 +121,7 @@
     padding: 2px 6px;
     border-radius: 4px;
   }
-  
-  /* Hidden by default */
+
   .product-actions {
     display: none;
     position: absolute;
@@ -132,8 +130,7 @@
     transform: translate(-50%, -50%);
     gap: 20px;
   }
-  
-  /* Show actions on hover */
+
   .product:hover .product-actions {
     display: flex;
   }
